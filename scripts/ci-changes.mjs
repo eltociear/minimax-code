@@ -9,6 +9,7 @@ export function classifyChanges(files) {
     [
       "README.md",
       "README_ZH.md",
+      "README_JA.md",
       "CONTRIBUTING.md",
       ".github/PULL_REQUEST_TEMPLATE.md",
     ].includes(p) ||

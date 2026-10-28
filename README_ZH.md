@@ -14,7 +14,7 @@
   <a href="docs/examples.md">Examples</a> ·
   <a href="CONTRIBUTING.md">Contributing</a>
 </p>
-<p align="center"><a href="README.md">English</a> · <strong>简体中文</strong></p>
+<p align="center"><a href="README.md">English</a> · <strong>简体中文</strong> · <a href="README_JA.md">日本語</a></p>
 <p align="center">
   <img src="docs/assets/source-preview.svg" alt="Source preview">
   <img src="docs/assets/node.svg" alt="Compatibility: Node.js 22.19+, 24.2+, 25, and 26">

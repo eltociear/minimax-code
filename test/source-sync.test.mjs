@@ -1053,7 +1053,7 @@ test('public support forms preserve destination URLs and separate Desktop from C
   assert.notEqual(bug.body.find(field => field.id === 'upload-id').validations?.required, true);
   for (const retired of ['bug.yml', 'feature.yml'])
     assert.equal(existsSync(new URL(`../.github/ISSUE_TEMPLATE/${retired}`, import.meta.url)), false);
-  assert.equal(classifyChanges(['README_ZH.md', 'README.md']).docsOnly, true);
+  assert.equal(classifyChanges(['README_ZH.md', 'README_JA.md', 'README.md']).docsOnly, true);
 });
 
 test('issue product labels follow current form answers without replacing unrelated labels', async () => {
